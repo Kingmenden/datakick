@@ -1,0 +1,21 @@
+package datakick;
+
+
+import datakick.Api.DatakickApi;
+import sun.net.www.protocol.http.HttpURLConnection;
+
+public class Datakick {
+
+    private final String USER_AGENT = "Mozilla/5.0";
+
+    public static void main( String[] args ) throws Exception {
+        DatakickApi datakickApi = new DatakickApi();
+//        Datakick datakick = new Datakick();
+//        datakickApi.lookupDatakickItem("0000000000000");
+//        datakickApi.addDatakickItem("037600121149",
+//                "name=pepperoni", "brand_name=Hormel",
+//                "total_fat=10g");
+//        datakickApi.getListOfItems();
+//        datakickApi.queryForListOfItems("peanut butter");
+    }
+}
