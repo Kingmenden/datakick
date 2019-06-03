@@ -1,7 +1,7 @@
 datakick
 =====
 
-datakick is a java wrapper for the `Datakick` open product database API.
+datakick is a java library for the `Datakick` open product database API.
 
 Check out the `full documentation` or skip to the quick tutorial below.
 
