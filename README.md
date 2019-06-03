@@ -1,4 +1,5 @@
 datakick
+=====
 
 datakick is a java wrapper for the `Datakick` open product database API.
 
