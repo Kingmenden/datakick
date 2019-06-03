@@ -3,10 +3,8 @@ package datakick.Models;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.Value;
 
 import java.awt.*;
-import java.util.List;
 
 @Getter
 @Setter

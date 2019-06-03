@@ -7,7 +7,6 @@ import datakick.Util.UtilBase64Image;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 
 public class DatakickApi {
     String BASE_URL = "https://www.datakick.org/api/items";
@@ -131,7 +130,7 @@ public class DatakickApi {
         }
     }
 
-    public String makeCall(HttpURLConnection con) throws IOException{
+    private String makeCall(HttpURLConnection con) throws IOException{
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(con.getInputStream()));
         String inputLine;
@@ -145,7 +144,7 @@ public class DatakickApi {
         return responseString;
     }
 
-    public String createParameters(String... values){
+    private String createParameters(String... values){
         String args = "";
         for(String value: values){
             args = args + value + "&";
@@ -154,7 +153,7 @@ public class DatakickApi {
         return args;
     }
 
-    public String createQuery(String query){
+    private  String createQuery(String query){
         String newQuery = " ";
         if(query.contains(" ")){
             newQuery = query.replace(" ", "+");

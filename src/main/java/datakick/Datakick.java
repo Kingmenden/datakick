@@ -10,12 +10,5 @@ public class Datakick {
 
     public static void main( String[] args ) throws Exception {
         DatakickApi datakickApi = new DatakickApi();
-//        Datakick datakick = new Datakick();
-//        datakickApi.lookupDatakickItem("0000000000000");
-//        datakickApi.addDatakickItem("037600121149",
-//                "name=pepperoni", "brand_name=Hormel",
-//                "total_fat=10g");
-//        datakickApi.getListOfItems();
-//        datakickApi.queryForListOfItems("peanut butter");
     }
 }
