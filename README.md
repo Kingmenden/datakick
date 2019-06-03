@@ -109,4 +109,4 @@ Exceptions:
 - **requests.exceptions.HTTPError** - Will be thrown if the gtin14 provided is invalid or not found in the product database.
 
 Datakick: https://www.datakick.org
-full documentation: https://datakick.readthedocs.org/en/latest/
+full documentation: Will be coming soon
